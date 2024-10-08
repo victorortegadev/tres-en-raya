@@ -1,0 +1,43 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+
+.game{
+    padding:20px 35px;
+}
+.cuadro{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1px;
+    background-color: black;
+    border: solid 1px black;
+    width: fit-content;
+    margin-right: 20px;
+}
+.botón{
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border: none;
+    background-color: white;
+}
+.status{
+    font-size: 1.1em;
+    margin-bottom: 12px;
+}
+.moves {
+    margin-left: 250px;
+    margin-top: -125px;
+    width: fit-content;
+}
+.moves li {
+    background-color: rgb(245, 245, 245);
+    border: solid 1px;
+    border-radius: 3px;
+    text-align: center;
+    width: fit-content;
+    padding: 0px 7px;
+    margin-bottom: 1px;
+}
