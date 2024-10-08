@@ -2,7 +2,7 @@
   "name": "tres-en-raya2",
   "version": "0.2.0",
   "private": true,
-  "homepage": "https://victorortegadev.github.io/tres-en-raya2/",
+  "homepage": "http://victorortegadev.github.io/tres-en-raya2",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
